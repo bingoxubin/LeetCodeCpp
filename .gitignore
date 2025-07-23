@@ -1,3 +1,13 @@
+# 忽略掉所有文件
+*
+# 取消忽略所有带有后缀名的文件
+!*.*
+# 取消忽略所有目录
+!*/
+
+# Prerequisites
+*.d
+
 # Prerequisites
 *.d
 
@@ -39,3 +49,12 @@
 
 # debug information files
 *.dwo
+
+*.idea
+*.DS_Store
+*.xml
+*.vscode
+*.yml
+*.plist
+*.dSYM
+*.txt
